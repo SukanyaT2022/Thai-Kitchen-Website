@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    overflow-x: hidden;
+}
+/*top section*/
+.BigTopBox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+padding-right: 30px;
+padding-top: 15px;
+
+    
+}
+.smallBox{
+    margin: 0px 10px;
+   
+    text-align: center;
+    font-size: 13px;
+}
+
+/*logo*/
+.logo{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.logo hr{
+    width: 10%;
+   margin: auto;
+   margin-bottom: 5px;
+  
+
+}
+hr{
+   color:black;
+   opacity:0.5;
+ 
+}
+
+
+/*increase size search box use input*/
+.searchBox{
+width: 50%;
+}
+
+/*change color background icon button*/
+.bgSearchIcon{
+background-color: #515A5A ;
+color: white;/*change icon search to white*/
+
+
+}
+.nav-link{
+    color: black;
+}
+
+
+.navigationCustom{
+    position: relative !important;/* realtive work as a parent -- absolute is a child*/
+}
+
+
+.mainBoxNav{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin: auto;
+
+}
+
+.bigContainer{
+    background-color: pink;
+    width: 90%;
+    margin: auto;
+    position: absolute;/*ABSOLUTE IS CHILD --absolute need to top or bottom// and left or right to make it work*/
+    top: 90%;
+    left: 5%;
+    z-index: 1;
+    padding: 20px 0px;
+    display: none;
+  
+
+
+
+}
+.smallBoxNav ul li a:first-child{
+color: aqua;
+}
+
+
+
+/*remove line--come with a tag*/
+.smallBoxNav li a{
+ text-decoration: none;
+ color: black;
+
+}
+/*remove dott from li*/
+.smallBoxNav li{
+    list-style: none;
+}
+.bigContainer h4{
+text-align: center;
+}
