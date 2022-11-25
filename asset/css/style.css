@@ -16,8 +16,7 @@ html,body{
     justify-content: end;
 padding-right: 30px;
 padding-top: 15px;
-
-    
+   
 }
 .smallBox{
     margin: 0px 10px;
@@ -57,8 +56,14 @@ color: white;/*change icon search to white*/
 
 
 }
+/*all a tag on nav bar--bootstrap class*/
 .nav-link{
     color: black;
+
+}
+.nav-link:hover{
+    color: green;
+
 }
 
 
@@ -74,9 +79,9 @@ width: 90%;
 margin: auto;
 
 }
-
+/*dropdown mainbox*/
 .bigContainer{
-    background-color: pink;
+   
     width: 90%;
     margin: auto;
     position: absolute;/*ABSOLUTE IS CHILD --absolute need to top or bottom// and left or right to make it work*/
@@ -86,15 +91,17 @@ margin: auto;
     padding: 20px 0px;
     display: none;
   
-
-
+}
+/*smallboxnav control before head product --the whole box*/
+.smallBoxNav{
+    margin-top: 20px;
 
 }
-.smallBoxNav ul li a:first-child{
-color: aqua;
+
+.smallBoxNav b{
+font-size: 18px;
+   
 }
-
-
 
 /*remove line--come with a tag*/
 .smallBoxNav li a{
@@ -108,4 +115,70 @@ color: aqua;
 }
 .bigContainer h4{
 text-align: center;
+}
+
+/*footer*/
+
+footer{
+    background-color:  #F0EAD6;
+    padding: 30px 0px;
+}
+
+
+.aboutUs{
+ 
+    height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+flex-direction: column;/*important to put this if we want different line*/
+
+
+}
+
+/*remove line*/
+.aboutUs a{
+    text-decoration: none;
+    color: black;
+}
+
+.mainPage-button{
+width: 120px;
+height: 60px;
+background-color: aqua;
+border-radius: 10px;
+border: none;
+font-weight: bold;
+
+}
+
+/*social media*/
+
+.bigBoxSocial{
+    text-align: center;
+}
+
+
+.bigBoxSocial h4{
+ margin-bottom: 10px;  
+ text-align: center;
+
+}
+
+.bigBoxSocial a{
+    color:red;
+    font-size: 30px;
+  margin: 0px 20px;
+  
+}
+
+.topRowSocial{
+  
+margin-bottom: 10px;
+
+}
+
+.bottomRowSocial{
+
 }
