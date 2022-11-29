@@ -9,6 +9,16 @@
 html,body{
     overflow-x: hidden;
 }
+:root {
+    --orange: #feaa1a;
+    --base: #f3e0c2;
+    --darkGreen: #7d8b11;
+    --lightGreen: #c1d92e;
+  }
+
+
+
+
 /*top section*/
 .BigTopBox{
     display: flex;
@@ -71,15 +81,17 @@ color: white;/*change icon search to white*/
     position: relative !important;/* realtive work as a parent -- absolute is a child*/
 }
 
-
+/*dropdown mainbox*/
 .mainBoxNav{
 display: flex;
 justify-content: space-between;
-width: 90%;
+width: 100%;
 margin: auto;
+padding-right: 20px;
+
 
 }
-/*dropdown mainbox*/
+
 .bigContainer{
    
     width: 90%;
@@ -90,6 +102,7 @@ margin: auto;
     z-index: 1;
     padding: 20px 0px;
     display: none;
+    background-color: white;
   
 }
 /*smallboxnav control before head product --the whole box*/
@@ -120,7 +133,7 @@ text-align: center;
 /*footer*/
 
 footer{
-    background-color:  #F0EAD6;
+    background-color: var(--base);
     padding: 30px 0px;
 }
 
@@ -146,7 +159,7 @@ flex-direction: column;/*important to put this if we want different line*/
 .mainPage-button{
 width: 120px;
 height: 60px;
-background-color: aqua;
+background-color: var(--lightGreen);
 border-radius: 10px;
 border: none;
 font-weight: bold;
@@ -167,18 +180,19 @@ font-weight: bold;
 }
 
 .bigBoxSocial a{
-    color:red;
-    font-size: 30px;
-  margin: 0px 20px;
+    color:var(--orange);
+    font-size: 25px;
+  margin: 0px 10px;
   
 }
 
 .topRowSocial{
   
-margin-bottom: 10px;
+margin-top: 20px;
 
 }
 
-.bottomRowSocial{
-
+/*big-hero*/
+.bigHero-bigBox{
+    url("")
 }
