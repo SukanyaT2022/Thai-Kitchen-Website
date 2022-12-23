@@ -1,198 +1,198 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
 
-
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-html,body{
-    overflow-x: hidden;
+html,
+body {
+ 
 }
 :root {
-    --orange: #feaa1a;
-    --base: #f3e0c2;
-    --darkGreen: #7d8b11;
-    --lightGreen: #c1d92e;
-  }
-
-
-
+  --orange: #feaa1a;
+  --base: #f3e0c2;
+  --darkGreen: #7d8b11;
+  --lightGreen: #c1d92e;
+}
 
 /*top section*/
-.BigTopBox{
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-padding-right: 30px;
-padding-top: 15px;
-   
+.BigTopBox {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-right: 30px;
+  padding-top: 15px;
 }
-.smallBox{
-    margin: 0px 10px;
-   
-    text-align: center;
-    font-size: 13px;
+.smallBox {
+  margin: 0px 10px;
+
+  text-align: center;
+  font-size: 13px;
 }
 
 /*logo*/
-.logo{
-    font-family: 'Merriweather', serif;
-    text-align: center;
+.logo {
+  font-family: 'Merriweather', serif;
+  text-align: center;
 }
-.logo hr{
-    width: 10%;
-   margin: auto;
-   margin-bottom: 5px;
-  
-
+.logo hr {
+  width: 10%;
+  margin: auto;
+  margin-bottom: 5px;
 }
-hr{
-   color:black;
-   opacity:0.5;
- 
+hr {
+  color: black;
+  opacity: 0.5;
 }
-
 
 /*increase size search box use input*/
-.searchBox{
-width: 50%;
+.searchBox {
+  width: 50%;
 }
 
 /*change color background icon button*/
-.bgSearchIcon{
-background-color: #515A5A ;
-color: white;/*change icon search to white*/
-
-
+.bgSearchIcon {
+  background-color: #515a5a;
+  color: white; /*change icon search to white*/
 }
 /*all a tag on nav bar--bootstrap class*/
-.nav-link{
-    color: black;
-
+.nav-link {
+  color: black;
 }
-.nav-link:hover{
-    color: green;
-
+.nav-link:hover {
+  color: green;
 }
 
+.navigationCustom {
+  position: relative !important; /* realtive work as a parent -- absolute is a child*/
 
-.navigationCustom{
-    position: relative !important;/* realtive work as a parent -- absolute is a child*/
+ 
+
 }
+/*make navbar sticky*/
+.navBartSticky{
+  position:sticky!important;
+  top: 0;
+  left: 0;
+width: 100%;
+background-color: white;
+}
+
 
 /*dropdown mainbox*/
-.mainBoxNav{
-display: flex;
-justify-content: space-between;
-width: 100%;
-margin: auto;
-padding-right: 20px;
-
-
+.mainBoxNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding-right: 20px;
+ 
 }
 
-.bigContainer{
-   
-    width: 90%;
-    margin: auto;
-    position: absolute;/*ABSOLUTE IS CHILD --absolute need to top or bottom// and left or right to make it work*/
-    top: 90%;
-    left: 5%;
-    z-index: 1;
-    padding: 20px 0px;
-    display: none;
-    background-color: white;
-  
+.bigContainer {
+  width: 90%;
+  margin: auto;
+  position: absolute; /*ABSOLUTE IS CHILD --absolute need to top or bottom// and left or right to make it work*/
+  top: 90%;
+  left: 5%;
+  z-index: 2;
+  padding: 20px 0px;
+  display: none;
+  background-color: white;
 }
 /*smallboxnav control before head product --the whole box*/
-.smallBoxNav{
-    margin-top: 20px;
-
+.smallBoxNav {
+  margin-top: 20px;
 }
 
-.smallBoxNav b{
-font-size: 18px;
-   
+.smallBoxNav b {
+  font-size: 18px;
 }
 
 /*remove line--come with a tag*/
-.smallBoxNav li a{
- text-decoration: none;
- color: black;
-
+.smallBoxNav li a {
+  text-decoration: none;
+  color: black;
 }
 /*remove dott from li*/
-.smallBoxNav li{
-    list-style: none;
+.smallBoxNav li {
+  list-style: none;
 }
-.bigContainer h4{
-text-align: center;
+.bigContainer h4 {
+  text-align: center;
 }
 
 /*footer*/
 
-footer{
-    background-color: var(--base);
-    padding: 30px 0px;
+footer {
+  background-color: var(--base);
+  padding: 30px 0px;
 }
 
+.aboutUs {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.aboutUs{
- 
-    height: auto;
-display: flex;
-align-items: center;
-justify-content: center;
-
-flex-direction: column;/*important to put this if we want different line*/
-
-
+  flex-direction: column; /*important to put this if we want different line*/
 }
 
 /*remove line*/
-.aboutUs a{
-    text-decoration: none;
-    color: black;
+.aboutUs a {
+  text-decoration: none;
+  color: black;
 }
 
-.mainPage-button{
-width: 120px;
-height: 60px;
-background-color: var(--lightGreen);
-border-radius: 10px;
-border: none;
-font-weight: bold;
-
+.mainPage-button {
+  width: 120px;
+  height: 60px;
+  background-color: var(--lightGreen);
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
 }
 
 /*social media*/
 
-.bigBoxSocial{
-    text-align: center;
+.bigBoxSocial {
+  text-align: center;
 }
 
-
-.bigBoxSocial h4{
- margin-bottom: 10px;  
- text-align: center;
-
+.bigBoxSocial h4 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.bigBoxSocial a{
-    color:var(--orange);
-    font-size: 25px;
+.bigBoxSocial a {
+  color: var(--orange);
+  font-size: 25px;
   margin: 0px 10px;
-  
 }
 
-.topRowSocial{
-  
-margin-top: 20px;
-
+.topRowSocial {
+  margin-top: 20px;
 }
 
 /*big-hero*/
-.bigHero-bigBox{
-    url("")
+.bigHero-bigBox {
+  background-image: url("../image/BigHeroPic-curry.jpg");
+  height: 60vh;
+background-size: cover;
+position: relative;/*parent control whole box*/
+background-attachment: fixed;
+z-index: -1;
 }
+/*give more flavour*/
+.bigHero-bigBox  h1{
+  color: white;
+  position: absolute;/*child*/
+bottom: 40px;
+left: 40px;
+
+}
+
+/*slider on index page*/
+
+
+
