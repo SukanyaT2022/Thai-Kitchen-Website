@@ -76,7 +76,10 @@ hr {
   left: 0;
 width: 100%;
 background-color: white;
+z-index: 1000;
 }
+
+
 
 
 /*dropdown mainbox*/
@@ -194,5 +197,63 @@ left: 40px;
 
 /*slider on index page*/
 
+/* small box each cariusel*/
+.carousel-cell{
+width: 30%;
+height: 300px;
+margin: 0px 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.carousel-cell h3{
+  margin-top: 10px;
+}
+
+.carousel-cell img{
+  width: 80%;
+  object-fit: cover;/*pic not stretch*/
 
 
+}
+/*move arrow slide up*/
+.main-carousel{
+height: 300px;
+margin: 20px 50px;
+
+}
+
+/*circle around product pic*/
+.circle{
+  width: 200px;
+  height: 200px;
+  background-color: #feaa1a;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.equalSizeSection{
+height: 100vh;
+background-color: #c1d92e;
+
+}
+
+
+
+
+
+
+/*perfect planner section*/
+.perfectPlanner-bigBox{
+height: 400px;
+width: 100%;
+background-image: url("../image/shirmpDish.jpg");
+background-size: cover;
+background-position: center center;
+padding: 50px 0px 0px 20px;/*work like a clock top right botttom left*/
+}
