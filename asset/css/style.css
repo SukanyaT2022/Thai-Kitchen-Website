@@ -199,7 +199,7 @@ left: 40px;
 
 /* small box each cariusel*/
 .carousel-cell{
-width: 30%;
+width: 33%;
 height: 300px;
 margin: 0px 10px;
 display: flex;
@@ -210,11 +210,12 @@ flex-direction: column;
 }
 
 .carousel-cell h3{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .carousel-cell img{
   width: 80%;
+  height: 200px;
   object-fit: cover;/*pic not stretch*/
 
 
@@ -228,8 +229,8 @@ margin: 20px 50px;
 
 /*circle around product pic*/
 .circle{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: #feaa1a;
 border-radius: 100%;
 display: flex;
@@ -237,6 +238,7 @@ align-items: center;
 justify-content: center;
 
 }
+/*control all section to be eqaul when scroll*/
 .equalSizeSection{
 height: 100vh;
 background-color: #c1d92e;
@@ -244,16 +246,38 @@ background-color: #c1d92e;
 }
 
 
-
+.spacePopproduct{
+  padding-top: 50px;
+}
 
 
 
 /*perfect planner section*/
 .perfectPlanner-bigBox{
 height: 400px;
-width: 100%;
+width: 95%;
 background-image: url("../image/shirmpDish.jpg");
 background-size: cover;
 background-position: center center;
 padding: 50px 0px 0px 20px;/*work like a clock top right botttom left*/
+color: white;
+margin: auto;
+border-radius: 5px;
+}
+
+
+.perfectPlanner-bigBox h4{
+width: 80%;
+margin: 20px 0px;
+
+}
+/*control button perfect planner*/
+.buttonPerfectPlaner{
+padding: 10px 15px;
+background-color: black;
+color: white;
+border-radius: 20px;
+font-size: 20px;
+border: none;
+
 }
