@@ -39,23 +39,31 @@
  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog">
      <div class="modal-content">
+<!--logo on top of sign in account-->
+      <div>
+        <img src="asset/image/logo-green-noBG.png" class="imageLogoAcc" alt="logoimage"><br>
+        </div>
+
        <div class="modal-header">
-         <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In</h1>
+
+
+
+<!--logo top of sign in account box-->
+
+         <h1 class="modal-title fs-5" id="exampleModalLabel">Sign into your Tuk Tuk account</h1>
          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
        </div>
        <!--model body and custome class control sign in box-->
        <div class="modal-body signinBox">
      <!--log in form-->
      <form action="">
-      <input type="email" placeholder="Your Email">
-      <input type="password" placeholder="Your Password">
-      <input type="submit" value="Submit">
+      <input type="email" placeholder="Your Email or mobile phone">
+      <input type="password" placeholder="Your Password"><span id="showPassword">Show Password</span>
+      <input type="submit" value="Sign In">
+      <input type="button" value="Create your account">
      </form>
        </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-         <button type="button" class="btn btn-primary">Save changes</button>
-       </div>
+      
      </div>
    </div>
  </div>

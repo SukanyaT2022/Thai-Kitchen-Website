@@ -130,16 +130,53 @@ z-index: 1000;
 display: block;
 margin:  0px auto 10px auto;
 width: 50%;
+padding: 5px;
+
 
 }
+
 .signinBox input::placeholder{
-color: pink;
+
 text-align: center;
 }
+/*submitbox account index*/
+.signinBox input[type=submit]{
+margin-top: 10px;
+
+}
+
 
 .signinBox input[type=submit]:hover{
   background-color: #feaa1a;
   border: 1px solid #e49103;
+ 
+}
+
+.signinBox input[type=button]{
+  background-color: #feaa1a;
+  border: 1px solid #e49103;
+  
+}
+
+.signinBox input[type=button]:hover{
+
+  background-color: rgb(245, 160, 3);
+}
+
+/*account sign in /logo box*/
+.imageLogoAcc{
+  width: 50px;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto 0px auto;
+
+}
+
+.modal-title{
+margin-top: -20px;
+display: block;
+margin-left:100px ;
 }
 
 
