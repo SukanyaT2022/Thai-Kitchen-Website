@@ -125,6 +125,25 @@ z-index: 1000;
   text-align: center;
 }
 
+/*sign in acccount box- index page*/
+.signinBox input{
+display: block;
+margin:  0px auto 10px auto;
+width: 50%;
+
+}
+.signinBox input::placeholder{
+color: pink;
+text-align: center;
+}
+
+.signinBox input[type=submit]:hover{
+  background-color: #feaa1a;
+  border: 1px solid #e49103;
+}
+
+
+
 /*footer*/
 
 footer {
@@ -280,4 +299,14 @@ border-radius: 20px;
 font-size: 20px;
 border: none;
 
+}
+/*receipe section*/
+.indexImg{
+height: 650px;
+
+}
+
+ .indexImg img{
+  height: 500px;
+  object-fit: cover;
 }

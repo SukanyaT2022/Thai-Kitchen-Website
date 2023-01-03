@@ -26,7 +26,46 @@
 
     <div class="smallBox">
       <i class="fa-solid fa-user"></i>
-      <p>Account</p>
+    
+
+
+<!--pop up account bootsratp-->
+<!-- Button trigger modal -->
+<p class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Account
+ </p>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <!--model body and custome class control sign in box-->
+       <div class="modal-body signinBox">
+     <!--log in form-->
+     <form action="">
+      <input type="email" placeholder="Your Email">
+      <input type="password" placeholder="Your Password">
+      <input type="submit" value="Submit">
+     </form>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Save changes</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+ 
+ <!--end pop up account-->
+
+
+
+
     </div>
 
     <div class="smallBox">
@@ -232,7 +271,7 @@
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card">
+    <div class="card indexImg">
       <img src="asset/image/curryIndexPagesmall.jpg" class="card-img-top" alt="curry">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -241,7 +280,7 @@
     </div>
   </div>
   <div class="col">
-    <div class="card">
+    <div class="card indexImg">
       <img src="asset/image/padthaiIndexPagesmall.jpg" class="card-img-top" alt="padThai">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -250,7 +289,7 @@
     </div>
   </div>
   <div class="col">
-    <div class="card">
+    <div class="card indexImg">
       <img src="asset/image/stirfriedIndexPagesmall.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -315,7 +354,17 @@
       </div>
     </div>
 
+
   </footer>
+
+
+
+
+
+
+
+
+
 
 
   <!--end footer-->
