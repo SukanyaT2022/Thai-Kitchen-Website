@@ -6,6 +6,7 @@
 }
 html,
 body {
+  overflow-x: hidden;
  
 }
 :root {
@@ -339,6 +340,16 @@ margin: 0px auto 40px auto;
  height: 300px;
 margin-right: 20px;
 border-radius: 5px;
+position: relative;
+
+}
+
+.moveButton{
+  position: absolute;
+  left: 20px;
+  bottom: 60px;
+  padding: 5px;
+  border-radius: 10px;
 
 }
 
@@ -352,10 +363,22 @@ background-size: cover;
 padding: 20px;
 height: 300px;
 border-radius: 5px;
+position: relative;
+}
+
+.moveButtonTwo{
+  position: absolute;
+  left: 20px;
+  bottom: 60px;
+  padding: 5px;
+  border-radius: 10px;
 
 }
 
-/*sample css grid*/
+
+
+
+/*sjust practice 2 box css grid*/
 
 .twoBox-bigBox2{
   width: 95%;
@@ -395,9 +418,51 @@ border-radius: 5px;
 
 }
 
+/*sjust practice 2 box css boostrap*/
+
+.twoBox-bigBox4{
+  width: 95%;
+ 
+margin: 0px auto 40px auto;
 
 
+}
 
+.smallBoxOne4{
+
+ height: auto;
+ background-color: #feaa1a;
+ padding: 20px;
+
+
+border-radius: 5px;
+
+}
+
+
+.smallBoxTwo4{
+
+  height: auto;
+background-image: url("../image/padthaiIndexPagesmall.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+
+border-radius: 5px;
+
+}
+
+/*practice4Box*/
+.big4Box{
+width: 95%;
+height: auto;
+}
+
+.boxOneP{
+ background-color: pink;
+ 
+
+}
 
 
 
