@@ -277,7 +277,7 @@ flex-direction: column;
 }
 
 .carousel-cell h3{
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 .carousel-cell img{
@@ -313,7 +313,8 @@ margin-top: 20px;
 }
 /*control all section to be eqaul when scroll*/
 .equalSizeSection{
-height: 100vh;
+height: auto;
+
 
 
 }
@@ -328,7 +329,8 @@ height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-margin: 0px auto 40px auto;
+margin: 100px auto 40px auto;
+
 
 }
 
