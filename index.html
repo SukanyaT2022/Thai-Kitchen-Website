@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="asset/css/style.css">
 
+
 </head>
 
 <body>
@@ -254,19 +255,19 @@
         </div>
 
 
-        <div class="carousel-cell">
-          <div class="circle"><img src="asset/image/product1.png"></div>
+        <div class="carousel-cell ">
+          <div class="circle editedSize"><img src="asset/image/BGtintContainer.png"></div>
           <h3>SauceOne</h3>
         </div>
 
-        <div class="carousel-cell">
-          <div class="circle"><img src="asset/image/product1.png"></div>
+        <div class="carousel-cell   ">
+          <div class="circle editedSize"><img src="asset/image/BGtintContainer.png"></div>
           <h3>SauceOne</h3>
         </div>
 
 
-        <div class="carousel-cell">
-          <div class="circle"><img src="asset/image/product1.png"></div>
+        <div class="carousel-cell  editedSize">
+          <div class="circle"><img src="asset/image/sauceBottleBGremove.png"></div>
           <h3>SauceOne</h3>
         </div>
 
@@ -281,21 +282,18 @@
 
   <!--perfect planner-->
   <section class=" equalSizeSection ">
-    <!--two box section-->
+    <!--two box section use flexbox-->
     <div class="twoBox-bigBox">
       <div class="smallBoxOne p-4">
         <h2>Make Something New Tonight</h2>
-        <p>Explore and find inspiration with our most popular recipes and products.
-          <br>Get recipe inspiration and track your spice collection.
-        </p>
-        <button class="moveButton">Get receipe</button>
+      
+        <button class="moveButton">Get Receipes</button>
 
       </div>
       <div class="smallBoxTwo">
         <h2>Dinner Made Easy</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit iusto ex similique incidunt
-          accusantium itaque quae. Ad error vero tenetur?</p>
-        <button class="moveButtonTwo">Explore Receipes</button>
+
+        <button class="moveButtonTwo">5 Minutes Receipes</button>
       </div>
 
 
@@ -317,8 +315,14 @@
 
 
   <!--receipe-->
+<h2 class="text-center pt-5">Get inspired</h2>
+  <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-xs-1 g-4 my-4 px-4">
+    <!-- row-cols-lg-4 means laptop 4 box in 1 row 
+      row-cols-md-2 means ipad air 2 boxes in 1 row
+      row-cols-sm-2 means ipad mini 2 boxes in 1 row
+      row-cols-xs-1  means mobile device 1 box on each row -->
+ <!--md4 means 4 boxes/ px-padding left and right-->
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
     <div class="col">
       <div class="card indexImg">
         <img src="asset/image/curryIndexPagesmall.jpg" class="card-img-top" alt="curry">
@@ -350,135 +354,20 @@
       </div>
     </div>
 
+    <div class="col">
+      <div class="card indexImg">
+        <img src="asset/image/stirfriedIndexPagesmall.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!--end receipe-->
-
-/*
-
-  <!--just-practice 2 box with grid-->
-  <div class="twoBox-bigBox2">
-    <div class="smallBoxOne2">
-      <h2>Make Something New Tonight</h2>
-      <p>Explore and find inspiration with our most popular recipes and products.
-        Get recipe inspiration and track your spice collection.</p>
-      <button>Get receipe</button>
-
-    </div>
-    <div class="smallBoxTwo2">
-      <h2>Dinner Made Easy</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit iusto ex similique incidunt accusantium
-        itaque quae. Ad error vero tenetur?</p>
-      <button>Explore Receipes</button>
-    </div>
-
-
-  </div>
-  <!--end two box with grid-->
-
-
-  <!--justPractice 2 box with boostrap/ divide 12 by 2=6 so col 6 for 2 box// and 12 for 1 box-->
-  <div class="Box-bigBox4 row row-cols-1 row-cols-md-2 g-3"><!--g-3 is grid gap-->
-    <div class="col">
-      <div class="smallBoxOne4 ">
-        <h2>Make Something New Tonight</h2>
-        <p>Explore and find inspiration with our most popular recipes and products.
-          Get recipe inspiration and track your spice collection.</p>
-        <button>Get receipe</button>
-
-      </div>
-
-    </div>
-
-    <div class="col">
-      <div class="smallBoxTwo4">
-        <h2>Dinner Made Easy</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit iusto ex similique incidunt
-          accusantium itaque quae. Ad error vero tenetur?</p>
-        <button>Explore Receipes</button>
-      </div>
-
-
-    </div>
-  </div>
-
-  <!--end two box with boostrap-->
-
-  <!--practice 4 boxes boostrap-->
-  <!--first 2 boxes side by side-->
-
-  <div class="big4Box row row-cols-1 row-cols-md-2 m-auto g-3">
-    <!--make new div for and put col to make gap bettween-->
-    <div class="col">
-
-      <div class="boxOneP">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur voluptas et molestias a eveniet quis
-          repudiandae impedit minima, doloremque praesentium! Magni dolorum optio ut? Vel officia maiores explicabo
-          rerum, iusto numquam ad ipsam enim consequuntur aliquam ratione voluptas doloribus incidunt, eius deleniti
-          odit repellat est nostrum! Suscipit illo harum laborum ab exercitationem dicta nemo cumque debitis aliquid,
-          laboriosam,</p>
-
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="boxOneP">
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur voluptas et molestias a eveniet quis
-          repudiandae impedit minima, doloremque praesentium! Magni dolorum optio ut? Vel officia maiores explicabo
-          rerum, iusto numquam ad ipsam enim consequuntur aliquam ratione voluptas doloribus incidunt, eius deleniti
-          odit repellat est nostrum! Suscipit illo harum laborum ab exercitationem dicta nemo cumque debitis aliquid,
-          laboriosam,</p>
-
-      </div>
-
-    </div>
-
-    <div class="col">
-
-      <div class="boxOneP">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur voluptas et molestias a eveniet quis
-          repudiandae impedit minima, doloremque praesentium! Magni dolorum optio ut? Vel officia maiores explicabo
-          rerum, iusto numquam ad ipsam enim consequuntur aliquam ratione voluptas doloribus incidunt, eius deleniti
-          odit repellat est nostrum! Suscipit illo harum laborum ab exercitationem dicta nemo cumque debitis aliquid,
-          laboriosam,</p>
-
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="boxOneP">
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur voluptas et molestias a eveniet quis
-          repudiandae impedit minima, doloremque praesentium! Magni dolorum optio ut? Vel officia maiores explicabo
-          rerum, iusto numquam ad ipsam enim consequuntur aliquam ratione voluptas doloribus incidunt, eius deleniti
-          odit repellat est nostrum! Suscipit illo harum laborum ab exercitationem dicta nemo cumque debitis aliquid,
-          laboriosam,</p>
-
-      </div>
-
-    </div>
-
-
-  </div>
-  
-
-  <!--copy first 2 boxes and paste inside the-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -491,18 +380,19 @@
   <footer>
     <div class="container-fluid">
       <!--container-fluid have no space left and right-->
-      <div class="row">
+      <div class="row row-cols-1 row-cols-sm-3  row-cols-xs-1 ">
         <!--first col1 about us-->
-        <div class="col">
+        <div class="col moveBoxDown">
           <div class="aboutUs">
             <h4>About Us</h4>
             <a href="">Our Company</a>
-            <a href="">Our Comnitment</a>
-
+            <a href="">Our Commitment</a>
+            <a href="">Videos</a>
+            <a href="">Recipes</a>
           </div>
         </div>
         <!--col2 contact-->
-        <div class="col text-center">
+        <div class="col text-center moveBoxDown">
 
           <h4>Question?</h4>
           <p>Search FAQ's or Contact Us</p>
@@ -512,7 +402,7 @@
         </div>
         <!--col3 social media-->
 
-        <div class="col bigBoxSocial">
+        <div class="col bigBoxSocial moveBoxDown">
           <h4>Follow Us</h4>
           <div class="topRowSocial">
 
@@ -520,7 +410,7 @@
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
 
-
+<br class="socialRow2">
             <a href=""><i class="fa-brands fa-tiktok"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
             <a href=""><i class="fa-brands fa-pinterest"></i></a>
@@ -533,13 +423,9 @@
 
   </footer>
 
-  <img src="asset/image/tuktukfull-removebg-preview.png">
-
-
-
-
-
-
+  <div>
+ <p class= "text-center pt-2">&copy;2023 Tiparpron Sukanya All right reserved</p>
+  </div>
 
 
   <!--end footer-->

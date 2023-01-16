@@ -5,9 +5,10 @@
 .bigHero-productPage{
 height: 60vh;
 width: 100%;
-background-image: url("../image/padthaiIndexPagesmall.jpg");
+background-image: url("../image/chilibottleforBighero.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+background-position:center left;
 position: relative;
 
 
