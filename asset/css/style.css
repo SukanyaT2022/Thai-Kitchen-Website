@@ -432,7 +432,7 @@ footer {
 }
 
 /*iphone*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .searchBox {
     width: 75%;
   }
@@ -468,6 +468,7 @@ footer {
 
   .moveButtonTwo {
     bottom: 30px;
+   
   }
 
   .perfectPlanner-bigBox {
@@ -477,5 +478,15 @@ footer {
 
   .moveBoxDown {
     margin-bottom: 30px;
+    text-align: left!important;
   }
+  .aboutUs {
+    align-items: flex-start;
+  }
+  .bigBoxSocial h4 {
+    text-align: left!important;
+      }
+      .socialRow2{
+        display: none;
+      }
 }
