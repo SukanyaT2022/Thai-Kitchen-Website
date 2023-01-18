@@ -489,4 +489,26 @@ footer {
       .socialRow2{
         display: none;
       }
+      /*top section account sign up move to center*/
+    
+      .BigTopBox {
+    
+        align-items: center;
+        justify-content:center;
+      
+      }
+
+      /*change drop down menu*/
+      .mainBoxNav {
+      
+        flex-wrap: wrap;/*automatic move to new row if not fit one box*/
+      
+      }
+      
+      .bigContainer {
+       border: 2px solid var(--orange);
+       margin-top: 25px;
+      }
+     
+
 }
