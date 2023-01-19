@@ -1,4 +1,9 @@
-
+:root {
+  --orange: #feaa1a;
+  --base: #f3e0c2;
+  --darkGreen: #7d8b11;
+  --lightGreen: #c1d92e;
+}
 
 
 
@@ -29,4 +34,55 @@ position: relative;
 .whiteBox-bigHero h2{
     font-family:  'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
+}
+
+/*product- round box section*/
+
+.spiceBigBox{
+display: grid;
+grid-template-columns:repeat(4,1fr);
+/* or 4 box= 1fr 1 fr 1 fr 3 fr*/
+margin: 20px 0px;
+
+}
+
+.spiceSmallBox{
+  text-align: center;
+ display: flex;
+ flex-direction: column; /*move side by side toup and down*/
+ align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+
+
+  
+}
+
+.roundBox{
+  background-color: var(--orange);
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+
+}
+
+.roundBox img{
+  height: 200px;
+  width: 250px;
+
+ 
+}
+
+/*sauce section*/
+.sauceSmallBox{
+  text-align: center;
+  display: flex;
+  flex-direction: column; /*move side by side toup and down*/
+  align-items: center;
+ justify-content: center;
+ margin-bottom: 30px;
 }
