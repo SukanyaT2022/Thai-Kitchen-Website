@@ -3,6 +3,7 @@
   --base: #f3e0c2;
   --darkGreen: #7d8b11;
   --lightGreen: #c1d92e;
+  --backgroundColor:#ececec;
 }
 
 
@@ -59,20 +60,20 @@ margin-bottom: 30px;
 }
 
 .roundBox{
-  background-color: var(--orange);
-  height: 200px;
-  width: 200px;
+  background-color: var(--backgroundColor);
+  height: 300px;
+  width: 300px;
   border: none;
-  border-radius: 100%;
+  /*border-radius: 100%;*/
   display: flex;
   align-items: center;
  justify-content: center;
-
+margin-bottom: 20px;
 }
 
 .roundBox img{
-  height: 200px;
-  width: 250px;
+  height: 300px;
+  width: 380px;
 
  
 }
@@ -89,7 +90,53 @@ margin-bottom: 30px;
 
 /*change background color*/
 #sauce{
-background-color: #b0a89b;
+
 padding: 10px 0px;
 
+}
+/*change size title h3*/
+.sauceSmallBox h3{
+  font-size: 20px;
+}
+
+.spiceSmallBox h3{
+  font-size: 20px;
+}
+
+/*move bestseller box to the corner*/
+
+.moveBSellerBox{
+  position: relative; /*relative for big box*/
+}
+.bestSellerBottom{
+  position: absolute; /*child box*/
+  background-color: black;
+  color: white;
+  padding: 5px;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+}
+/*move heart icon*/
+.moveBSellerBox .fa-heart{
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 20px;
+background-color: orange;
+padding:5px ;
+border-radius: 100%;
+}
+
+/*scrol up bar-product page*/
+.moveScrolUp{
+  text-align: right;
+
+font-size: 50px;
+position: fixed;
+right: 30px;
+top: 50%;
+z-index: 7;
+
+ 
 }
