@@ -1,0 +1,28 @@
+.receipe-bigHero{
+    background-image: url("../image/bigHero-receipe.jpg");
+    height: 80vh;
+    width: 100%;
+    background-repeat: none;
+    background-size:cover;
+    background-position: center center;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+}
+
+.smallBox-insideBG{
+
+  height: auto;  
+  width: 330px;
+margin-right: 10px;
+  color: black;
+padding: 15px;
+background-color:white;
+
+}
+
+.smallBox-insideBG h4{
+    font-size: 25px;
+   
+}
