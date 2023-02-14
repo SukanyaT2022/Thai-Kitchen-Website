@@ -1,160 +1,149 @@
-.receipe-bigHero{
-    background-image: url("../image/bigHero-receipe.jpg");
-    height: 80vh;
-    width: 100%;
-    background-repeat: none;
-    background-size:cover;
-    background-position: center center;
-display: flex;
-align-items: center;
-justify-content: flex-start;
 
+:root {
+  --orange: #feaa1a;
+  --base: #f3e0c2;
+  --darkGreen: #7d8b11;
+  --lightGreen: #c1d92e;
 }
 
-.smallBox-insideBG{
 
-  height: auto;  
+
+
+
+.receipe-bigHero {
+  background-image: url('../image/bigHero-receipe.jpg');
+  height: 60vh;
+  width: 100%;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.smallBox-insideBG {
+  height: auto;
   width: 330px;
-margin-left: 50px;
+  margin-left: 50px;
   color: black;
-padding: 15px;
-background-color:white;
-
+  padding: 15px;
+  background-color: white;
 }
 
-.smallBox-insideBG h4{
-    font-size: 25px;
-   
+.smallBox-insideBG h4 {
+  font-size: 25px;
 }
 
 /*first section- equalsection control whole section*/
-.equalSection{
- 
-  height:100vh;
+.equalSection {
+  height: auto;
+  margin-bottom: 30px;
 }
 /*bixbox-receipe control the 3 box */
-.bigbox-receipe{
- 
+.bigbox-receipe {
   display: flex;
   width: 80%;
   margin: auto;
-
 }
 /*leftside w. 2 small box up and down*/
-.leftside-2smallBox{
-
-width:40% ;
-height: auto;
+.leftside-2smallBox {
+  width: 40%;
+  height: auto;
 }
 
-
-.upBox{
-
+.upBox {
   width: 90%;
   height: 235px;
   margin: 0px 30px 0px 10px;
   position: relative;
-
 }
-.upBox img{
+.upBox img {
   width: 100%;
   height: 235px;
-object-fit: cover;
-}
-
-.textonTopPic-UpleftBox{
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  color: white;
-
-}
-
-.downBox{
- 
-  width: 90%;
-  height: 235px;
-  margin: 30px 30px 0px 10px;
-}
-
-.downBox img{
- 
-  width: 100%;
-  height: 230px;
-object-fit: cover;
-
-}
-
-/*rightside*/
-.rightside-1BigBox{
-   width:60%;
-   position: relative;/*link to text on top pic line 101--child box*/
-   height: 495px;
-}
-.rightside-1BigBox img{
- 
-  width:100% ;
-height: 100%;
   object-fit: cover;
 }
 
+.textonTopPic-UpleftBox {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+}
+
+.downBox {
+  width: 90%;
+  height: 235px;
+  margin: 30px 30px 0px 10px;
+  position: relative;
+}
+
+.downBox img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+/*rightside*/
+.rightside-1BigBox {
+  width: 60%;
+  position: relative; /*link to text on top pic line 101--child box*/
+  height: 495px;
+}
+.rightside-1BigBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /*second section*/
 
 /*right side box*/
-.section2{
-flex-direction: row-reverse;/*flip to box from left to right side*/
+.section2 {
+  flex-direction: row-reverse; /*flip to box from left to right side*/
 }
 
-.section2 .upBox{
+.section2 .upBox {
   margin-right: 0px;
   margin-left: 30px;
-
 }
-.section2 .downBox{
+.section2 .downBox {
   margin-right: 0px;
   margin-left: 30px;
-
 }
 
-.textonTopPic{
-position: absolute;/*link to line 83--child box*/
-top: 30px;
-left: 30px;
-color: white;
-/* top: 50%;
+.textonTopPic {
+  position: absolute; /*link to line 83--child box*/
+  top: 30px;
+  left: 30px;
+  color: white;
+  /* top: 50%;
 left: 50%;
 transform: translate(-50%,-50%); 
 if want to move text to the center see above*/
-
 }
 
 /*section3 4 box bootreap*/
 
 /*control big Box*/
 
-
-
 .controlBigBox {
   width: 80%;
   margin: auto;
-
 }
 
 .controlBigBox .card {
   border-radius: 0px;
 }
 
-
 /*BELOW CONTROL SIZE OF IMAGE IN THE CARD*/
-.controlBigBox .card img{
+.controlBigBox .card img {
   height: 300px;
-  object-fit: cover;/*pics not strect*/
-  border-radius: 0px;/*remove round coner from boostrap*/
-
+  object-fit: cover; /*pics not strect*/
+  border-radius: 0px; /*remove round coner from boostrap*/
 }
 /*practice 4 grid*/
-  /* grid-gap:20px; */
+/* grid-gap:20px; */
 /* .grid4Box{
   border: 2px solid green;
   height: 100vh;
@@ -172,25 +161,67 @@ if want to move text to the center see above*/
 
 } */
 
-
 /*section4 1 box chef collection*/
 
-
-
-.section4-bigBox{
-
-
+.section4-bigBox {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
 }
-.section4-imgRight{
- background-image: url("https://images.pexels.com/photos/14883753/pexels-photo-14883753.jpeg?auto=compress&cs=tinysrgb&w=800");
- width: 50%;
- height:495px;
-
-}
-
-.section4-imgLeft{
-  background-color:#E5E8E8  ;
-  background-image: url("https://images.pexels.com/photos/8879653/pexels-photo-8879653.jpeg?auto=compress&cs=tinysrgb&w=800");
+.section4-imgRight {
+  background-image: url('../image/coconut-Receipe-Secion4.jpeg');
   width: 50%;
-  height:495px;
+  height: 495px;
+  background-size: cover;
+}
+
+.section4-imgRight img {
+  width: 100%;
+}
+
+
+.section4-imgLeft {
+  background-color: #e5e8e8;
+  width: 50%;
+  height: 495px;
+display: flex;
+align-items: center;
+
+flex-direction: column;
+}
+
+.chef {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border: 12px solid white;
+  margin-top: 60px;
+  
+}
+.chef img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;/*use when put image in html*/
+}
+
+
+ .text-left {
+  width: 90%;
+  margin: auto;
+ margin-top: 40px;
+  text-align: center;
+}
+.text-left a{
+ color: black;
+ text-decoration: none;/*remove underline*/
+
+}
+.text-left h6{
+  margin-top: 20px;
+  
+}
+
+.text-left a:hover{
+  color: var(--orange);
 }
