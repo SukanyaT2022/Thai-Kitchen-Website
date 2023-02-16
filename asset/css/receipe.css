@@ -96,7 +96,7 @@
   object-fit: cover;
 }
 
-/*second section*/
+/*section2*/
 
 /*right side box*/
 .section2 {
@@ -130,6 +130,16 @@ if want to move text to the center see above*/
 .controlBigBox {
   width: 80%;
   margin: auto;
+position: relative;
+}
+
+.controlBigBox h4 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white
+  
+  ;
 }
 
 .controlBigBox .card {
@@ -223,5 +233,21 @@ flex-direction: column;
 }
 
 .text-left a:hover{
+  color: var(--orange);
+}
+
+
+/*scrol up bar-product page*/
+.moveScrolUp{
+  text-align: right;
+font-size: 50px;
+position: fixed;
+right: 30px;
+top: 50%;
+z-index: 7;
+
+}
+
+.moveScrolUp a{
   color: var(--orange);
 }

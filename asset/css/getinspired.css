@@ -1,0 +1,59 @@
+
+
+
+
+/*bighero*/
+
+
+/*control main box*/
+.bigHero-inspire{
+    position: relative;
+  
+
+
+}
+
+
+
+
+#animation{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;/*use object fix cover when put image on html*/
+transition: 1s all;/*8make animation more smooth*/
+
+
+
+    /* background-image: url("https://images.pexels.com/photos/12866496/pexels-photo-12866496.jpeg?auto=compress&cs=tinysrgb&w=800"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* animation  by css change picture in bighero every 5 second
+
+    animation: pic1 5s infinite;
+    transition: all;
+
+}
+
+@keyframes pic1 {
+    0%{
+        background-image: url("https://images.pexels.com/photos/12866496/pexels-photo-12866496.jpeg?auto=compress&cs=tinysrgb&w=800");
+    }
+    50%{
+        background-image: url("https://images.pexels.com/photos/175754/pexels-photo-175754.jpeg?auto=compress&cs=tinysrgb&w=800");
+    }
+    
+    100%{
+        background-image: url("https://images.pexels.com/photos/162993/food-thai-spicy-asian-162993.jpeg?auto=compress&cs=tinysrgb&w=800");
+    }
+   */ 
+}
+
+
+/*move text to center big hero*/
+.big-HerosmallBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
