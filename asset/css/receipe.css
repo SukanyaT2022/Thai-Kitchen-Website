@@ -4,6 +4,7 @@
   --base: #f3e0c2;
   --darkGreen: #7d8b11;
   --lightGreen: #c1d92e;
+  --lightgrey:#eef0f2;
 }
 
 
@@ -178,6 +179,7 @@ position: relative;
   align-items: center;
   width: 80%;
   margin: auto;
+  margin-bottom: 90px;
 }
 .section4-imgRight {
   background-image: url('../image/coconut-Receipe-Secion4.jpeg');

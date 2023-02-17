@@ -1,4 +1,10 @@
-
+:root {
+    --orange: #feaa1a;
+    --base: #f3e0c2;
+    --darkGreen: #7d8b11;
+    --lightGreen: #c1d92e;
+    --lightgrey:#eef0f2;
+  }
 
 
 
@@ -8,13 +14,10 @@
 /*control main box*/
 .bigHero-inspire{
     position: relative;
-  
-
+    width: 80%;
+    margin: auto;
 
 }
-
-
-
 
 #animation{
     height: 60vh;
@@ -56,4 +59,50 @@ transition: 1s all;/*8make animation more smooth*/
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+
+}
+
+
+/* after big hero-section1*/
+
+
+.mainBox-getinspired{
+width: 80%;
+margin: auto;
+background-color: var(--lightgrey);
+}
+
+.mainBox-getinspired p{
+    font-weight: 400;
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+  padding: 30px 0px;
+}
+
+.mainBox-section1{
+ width: 80%;
+ height: 400px;
+ display: flex;
+ align-items: center;
+
+
+}
+
+.pic-section1{
+background-image: url("https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXNpYW4lMjBjaGVmfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+;
+background-size: cover;
+width: 50%;
+height: 400px;
+
+}
+
+
+.text-section1{
+    width: 50%;
+height: 400px;
+
+
+
 }
