@@ -201,17 +201,43 @@ position: relative;
 /*section3-lastsection*/
 /*below we target image box and we put onlu hight coz width already define by boostrap*/
 .controlSmallBox img{
-   height: 400px;
+   height: 350px;
    object-fit: cover;/*we use object fit when put pic in html*/
    border-radius: 0;
 
 }
+/*.control small box --is a main box extra cutome class*/
 .controlSmallBox {
     border-radius: 0;
-    height: 700px;
-    background-color: red;
+    text-align: center;
+
+}
+/*below .control the whole height . card coz box is not equal hight 
+so we have to define height to make all box equal height*/
+.controlSmallBox .card{
+    height: 750px;
+    margin-bottom: 40px;
+  
 }
 
-.controlSmallBox .card{
-    height: 700px;
+.controlSmallBox .card-body{
+  padding:20px;  
+}
+
+/*control second title*/
+
+.first{
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+.second{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*fontawesom location*/
+.fa-location-dot{
+font-size: 30px;
+margin: 10px 0px;
 }
