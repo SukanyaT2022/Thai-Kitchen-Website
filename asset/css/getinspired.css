@@ -201,7 +201,7 @@ position: relative;
 /*section3-lastsection*/
 /*below we target image box and we put onlu hight coz width already define by boostrap*/
 .controlSmallBox img{
-   height: 350px;
+   height: 300px;
    object-fit: cover;/*we use object fit when put pic in html*/
    border-radius: 0;
 
@@ -215,8 +215,10 @@ position: relative;
 /*below .control the whole height . card coz box is not equal hight 
 so we have to define height to make all box equal height*/
 .controlSmallBox .card{
-    height: 750px;
-    margin-bottom: 40px;
+    height: 720px;
+    border: none;
+    background-color: var(--lightgrey);
+  
   
 }
 
@@ -240,4 +242,51 @@ so we have to define height to make all box equal height*/
 .fa-location-dot{
 font-size: 30px;
 margin: 10px 0px;
+}
+
+
+
+
+
+
+/*section4*/
+
+.mainBox-section4 p{
+    font-weight: 400;
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+  padding: 0px 0px;
+
+}
+
+
+.mainBox-section4{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+
+.targetRow .col img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.targetRow .col{
+    height:300px ;
+}
+
+.targetText small{
+    text-align: center;
+
+}
+
+.targetText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
