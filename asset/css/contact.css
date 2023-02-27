@@ -1,0 +1,44 @@
+.bigHero{
+    background-image: url("https://images.unsplash.com/photo-1583653219111-c4bfb6eb6162?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dHVrJTIwdHVrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    height: 60vh;
+  width: 70%;
+  background-repeat: none;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;/*flex start means stat from the left side*/
+  margin: auto;
+
+}
+.whiteBox{
+  width: 270px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-left: 50px;
+
+
+}
+.mainBox-sec1{
+  width: 70%;
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  margin: auto;
+  grid-gap:20px;
+  text-align: center;
+  
+
+}
+.smallBox-icon{
+  background-color: aqua;
+
+}
+.roundBlackBG{
+
+}
+
+.roundBlackBG .fa-location-dot{
+
+
+}
