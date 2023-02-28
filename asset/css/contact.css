@@ -1,3 +1,11 @@
+
+:root {
+  --orange: #feaa1a;
+  --base: #f3e0c2;
+  --darkGreen: #7d8b11;
+  --lightGreen: #c1d92e;
+}
+
 .bigHero{
     background-image: url("https://images.unsplash.com/photo-1583653219111-c4bfb6eb6162?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dHVrJTIwdHVrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
     height: 60vh;
@@ -27,18 +35,83 @@
   margin: auto;
   grid-gap:20px;
   text-align: center;
+
   
 
 }
 .smallBox-icon{
-  background-color: aqua;
+  padding: 10px 20px;
+  text-decoration: none;
 
 }
+
+/*remove a tag underline*/
+.smallBox-icon a{
+  text-decoration: none;
+  color: #2C3E50;
+}
+
+
+.smallBox-icon :hover{
+color: var(--orange);
+}
+
+
 .roundBlackBG{
+  width: 75px;
+  height: 75px;
+  background-color:#2C3E50;
+  border-radius:100% ;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin:20px auto;
+ 
 
 }
 
 .roundBlackBG .fa-location-dot{
+  color: white;
+  font-size: 30px;
+}
+
+/*contact form*/
+.bigBox-form{
+  width: 70%;
+  background-color: #c1d92e;
+  margin: auto;
+
+}
+/*target form below*/
+.bigBox-form form{
+  background-color: #feaa1a;
+  width: 50%;
 
 
+}
+
+.bigBox-form input{
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+
+}
+/* text area use for make message box*/
+.bigBox-form textarea{
+  display: block;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 300px;
+
+}
+/* target only text contact Us above*/
+.top-contact{
+  background-color:#2C3E50;
+  color: white;
+
+}
+
+/*big box contro; from tag and pic left side*/
+.controlFormPic-bigBox{
+display: flex;
 }
