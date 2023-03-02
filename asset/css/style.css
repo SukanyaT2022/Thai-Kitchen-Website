@@ -33,6 +33,16 @@ body {
   font-size: 13px;
 }
 
+
+.smallBox a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.smallBox a:hover{
+color: var(--orange);
+}
 /*logo*/
 .logo {
   font-family: 'Merriweather', serif;
