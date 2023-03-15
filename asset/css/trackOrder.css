@@ -9,9 +9,19 @@
    
 }
 .title{
-    margin-left: 140px;
-    margin-top: 50px;
+ margin-left: 90px;
+ margin-bottom: 20px;
+ color: #36454F;
+ font-family: serif;
 }
+.mainBox-track{
+    width: 70%;
+    margin: auto;
+ 
+}
+
+
+
 
 .bigBox-for2smallbox{
     display: flex;
@@ -23,9 +33,44 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: Roboto,sans-serif;
+
+   
     
 }
 
+.smallBox-signIn input{
+    padding: 5px 25px;
+    margin: 10px 0px;
+    width: 250px;
+    border-radius: 3px;
+ border: solid 2px lightgray;
+
+}
+
+
+#clickBox{
+  margin: 0;
+  width: 30px;
+ 
+}
+
+.submitBox{
+  width: 250px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin:15px 0px ;
+    font-size: 15px;
+}
+
+.forgetPW a{
+    color: black;
+}
+
+
+/*search box left side*/
 .smallBox-OrderSearch{
     width: 40%;
     display: flex;
@@ -34,4 +79,5 @@
     
   
 }
+
 
