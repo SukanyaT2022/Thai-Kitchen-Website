@@ -3,25 +3,26 @@
 
 /*line in middle*/
 .line{
-    background-color: black;
+    background-color: #36454F;
     width: 2px;
     height: 300px;
    
 }
 .title{
- margin-left: 90px;
+
  margin-bottom: 20px;
  color: #36454F;
  font-family: serif;
 }
+/*control the whole box*/
 .mainBox-track{
     width: 70%;
     margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+ 
  
 }
-
-
-
 
 .bigBox-for2smallbox{
     display: flex;
@@ -29,14 +30,13 @@
     justify-content: center;
 }
 .smallBox-signIn{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-family: Roboto,sans-serif;
 
    
-    
 }
 
 .smallBox-signIn input{
@@ -63,6 +63,7 @@
     border: none;
     margin:15px 0px ;
     font-size: 15px;
+    border:1px solid  black!important;
 }
 
 .forgetPW a{
@@ -71,13 +72,21 @@
 
 
 /*search box left side*/
-.smallBox-OrderSearch{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-  
+
+.searchBox{
+width: 100%;
+
+
 }
+.wholeSearchBox h4{
+    margin-top: -210px;
+    margin-bottom: 50px;
+}
+
+.moveSearchBox{
+    padding-left: 100px!important;
+}
+
+
 
 

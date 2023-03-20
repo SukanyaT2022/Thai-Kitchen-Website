@@ -199,12 +199,15 @@
   <!--end NavBar--bootstrap grid-->
 
 <div class="mainBox-track">
-<h3 class="title">Track Your Order</h3>
+
 <div class="bigBox-for2smallbox pb-5">
 
 
   <!--start sign in side-->
-<div class="smallBox-signIn">
+<div class="smallBox-signIn ps-5">
+
+  <h3 class="title">Track Your Order</h3>
+
 <h5>Sign in to view order history</h5>
 
 <input type="email" placeholder="Email *">
@@ -216,7 +219,7 @@
 </div>
 
 <small>Selecting this option will keep you logged-in on this device. </small>
-<small>keep your account secure, use this option only on your personal devices.</small>
+<small>keep your account secure, <br>use this option only on your personal devices.</small>
 
 <input type="submit" value="SIGN IN" class="submitBox">
 
@@ -230,22 +233,47 @@
 
 </div>
 
-<!--start order search side-->
-<div class="smallBox-OrderSearch">
+<!--start searchBox Left-->
+<div class="smallBox-signIn ps-5 moveSearchBox">
+  <!-- ps-2 padding start -->
 
+  <h3 class="title">Order Search</h3>
+  
+<h5>View order history</h5>
+
+<input type="email" placeholder="Order Number *">
+<input type="password" placeholder="Postal Code *">
+
+<div class="checkBox mb-3 mt-1">
+<input type="checkbox" id="clickBox">
+<small >Save information</small>
+</div>
+
+<small>If you do not have your order number,</small>
+<small> please call 877.812.6235 for assistanc.</small>
+
+<input type="submit" value="SEARCH" class="submitBox">
+
+<small class="forgetPW"><a href="">Forgot Your Order Number?</a></small>
+
+</div>
+<!--end sign in side-->
+
+
+<!-- start order search side-->
+<!-- <div class="wholeSearchBox">
   <h4>Order Search</h4>
+<div class="smallBox-OrderSearch searchBox">
+ 
   <input type="text" placeholder="Order Number *">
   <input type="text" placeholder="Postal Code *">
   <input type="submit" value="Track Order">
   <small>If you do not have your order number,</small>
     <small> please call 877.812.6235 for assistanc.</small>
-
-
-
- 
 </div>
+</div> -->
 
-<!--end order search side-->
+<!--end order search side -->
 
 
 
