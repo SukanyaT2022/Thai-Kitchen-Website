@@ -1,0 +1,34 @@
+.mainReturn{
+width: 50%;
+margin: 40px auto;
+font-size: 15px;
+
+}
+
+
+.startProcessSection{
+
+}
+
+
+.mainBoxRadio{
+
+}
+
+.mainBoxRadio input,label{
+margin: 10px 5px;
+}
+
+.submitBox-return{
+width: 70%;
+padding: 5px 0px;
+font-weight: bold;
+color: white;
+background-color: black;
+border: none;
+}
+
+/* print label swection*/
+.forFormTag{
+    
+}
