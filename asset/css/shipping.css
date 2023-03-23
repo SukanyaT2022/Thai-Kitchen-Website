@@ -1,0 +1,23 @@
+.mainBox-ship{
+width: 70%;
+margin: 40px auto;
+
+}
+
+.mainBox-ship h4{
+margin-bottom: 40px;
+
+}
+
+.controlText-ship h6{
+width: 50%;
+border-bottom: 1.5px solid grey;
+margin-left: 20px;
+padding-bottom: 10px;
+
+
+}
+.controlText-ship{
+    display: flex;
+   
+}

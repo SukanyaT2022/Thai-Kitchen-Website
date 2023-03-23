@@ -6,14 +6,6 @@ font-size: 15px;
 }
 
 
-.startProcessSection{
-
-}
-
-
-.mainBoxRadio{
-
-}
 
 .mainBoxRadio input,label{
 margin: 10px 5px;
@@ -28,7 +20,27 @@ background-color: black;
 border: none;
 }
 
-/* print label swection*/
+/* print label section*/
 .forFormTag{
-    
+  display: flex;  
+  align-items: start;
+  flex-direction: column;
+
+}
+
+.forFormTag input{
+    margin: 20px 0px;
+    width: 70%;
+    padding: 10px;
+}
+
+/* drop down is not input but it is select */
+
+.forFormTag select{
+    width: 70%;
+    padding: 10px;
+}
+
+.shippingLabel{
+    margin-top: 50px;
 }
