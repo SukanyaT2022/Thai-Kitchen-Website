@@ -24,13 +24,14 @@
     width: 100%;
     object-fit: cover;/*use object fix cover when put image on html*/
 transition: 1s all;/*8make animation more smooth*/
+}
 
 
-
-    /* background-image: url("https://images.pexels.com/photos/12866496/pexels-photo-12866496.jpeg?auto=compress&cs=tinysrgb&w=800"); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* animation  by css change picture in bighero every 5 second
+ /* animation  by css change picture in bighero every 5 second how make animation from css
+    background-image: url("https://images.pexels.com/photos/12866496/pexels-photo-12866496.jpeg?auto=compress&cs=tinysrgb&w=800");
+  background-repeat: no-repeat;
+    background-size: cover; 
+   
 
     animation: pic1 5s infinite;
     transition: all;
@@ -48,8 +49,9 @@ transition: 1s all;/*8make animation more smooth*/
     100%{
         background-image: url("https://images.pexels.com/photos/162993/food-thai-spicy-asian-162993.jpeg?auto=compress&cs=tinysrgb&w=800");
     }
-   */ 
+   
 }
+*/
 
 
 /*move text to center big hero*/
@@ -245,10 +247,6 @@ margin: 10px 0px;
 }
 
 
-
-
-
-
 /*section4*/
 
 .mainBox-section4 p{
@@ -289,4 +287,58 @@ object-fit: cover;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+/*ipad air*/
+@media screen and (max-width: 999px) {
+    #animation{
+        height: 40vh;
+    }
+    .controlSmallBox .card-text{
+        display: none;
+    }
+
+    .controlSmallBox .card{
+        height: auto;
+       
+    }
+    .mainBox-section4{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .mainBox-section2{
+  margin-left: 20px;
+  margin-top: 50px;
+ height: 400px;
+background-size: contain;
+}
+
+}
+
+/*ipad mini*/
+@media screen and (max-width: 768px) {
+    .mainBox-section2{
+        margin-left: 2px;
+  
+      }
+
+      .controlSmallBox .card{
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+
+    .fa-location-dot{
+     display: block!important;
+     margin: 20px auto;
+     width: 20px;
+     
+        }
+}
+
+/*iphone*/
+@media screen and (max-width: 600px) {
+
 }
