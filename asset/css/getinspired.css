@@ -328,17 +328,66 @@ background-size: contain;
         margin-bottom: 40px;
         text-align: left;
     }
-
-
     .fa-location-dot{
      display: block!important;
      margin: 20px auto;
      width: 20px;
      
         }
+        .card a{
+            text-decoration: none;
+        }
 }
 
 /*iphone*/
 @media screen and (max-width: 600px) {
+
+    .card {
+       text-align: center!important;
+    }
+
+    .controlSmallBox .card{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+     
+    }
+
+    /*from the top*/
+    .mainBox-section1{
+      flex-direction: column;
+       height: auto;
+       }
+       
+       .pic-section1{
+       background-image: url("https://images.pexels.com/photos/15323385/pexels-photo-15323385.png?auto=compress&cs=tinysrgb&w=800");
+       ;
+       background-size: cover;
+       width: 100%;
+    height: 250px;
+       
+       }
+       
+       .text-section1{
+       width: 100%;
+       height: auto;
+       padding:20px;
+     
+       }
+
+       .mainBox-section2{  
+    background-image: none;
+background-color: green;
+height: 200px;
+    }
+
+    .mainBox-section4{
+     margin-bottom: 40px;
+    }
+
+    .targetText{
+       padding: 10px;
+       height: auto!important;
+    }
+
 
 }
