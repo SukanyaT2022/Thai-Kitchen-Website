@@ -25,8 +25,6 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   margin-left: 50px;
-
-
 }
 .mainBox-sec1{
   width: 70%;
@@ -35,14 +33,10 @@
   margin: auto;
   grid-gap:20px;
   text-align: center;
-
-  
-
 }
 .smallBox-icon{
   padding: 10px 20px;
   text-decoration: none;
-
 }
 
 /*remove a tag underline*/
@@ -50,12 +44,9 @@
   text-decoration: none;
   color: #2C3E50;
 }
-
-
 .smallBox-icon a :hover{
 color: var(--orange);
 }
-
 
 .roundBlackBG{
   width: 75px;
@@ -84,15 +75,12 @@ color: var(--orange);
   color: white;
   font-size: 30px;
 }
-
-
 /*big box contro; from tag and pic left side*/
 .controlFormPic-bigBox{
   display: flex;
  padding: 30px  0px;
   }
   
-
 /*below is class control big box everything*/
 .bigBox-form{
   width: 70%;
@@ -119,10 +107,8 @@ margin: 20px;
 
 /*target form below*/
 .bigBox-form form{
-
   width: 60%;
   margin-left: 40px;
-
 }
 
 .bigBox-form input{
@@ -171,4 +157,102 @@ opacity: 1;
 .fa-phone{
   color:#2C3E50;
   font-size: 20px;
+}
+
+.hoverSubmitBox:hover{
+background-color: #feaa1a;
+border: none;
+}
+
+
+/*ipad air*/
+@media screen and (max-width: 999px) {
+  .bigHero{
+    height: 40vh;  
+}
+.bigBox-form{
+  width: 70%;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+
+}
+/*pic left side of contact form*/
+.image-left{
+display: none;
+
+}
+
+.controlFormPic-bigBox form{
+  width: 100%;
+  height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.controlFormPic-bigBox form input, textarea{
+border: 1px solid black;
+padding: 10px;
+
+}
+
+}
+/*ipad mini*/
+@media screen and (max-width: 768px) {
+}
+
+
+/*iphone*/
+@media screen and (max-width: 600px) {
+  .bigHero{
+  height: 60vh;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.whiteBox{
+  height:auto;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+.mainBox-sec1{
+  grid-template-columns:1fr ;
+  grid-gap:0px;
+}
+/*contact box*/
+.bigBox-form{
+  width: 85%;
+  margin: auto;
+  
+}
+
+
+/*target form below*/
+.bigBox-form form{
+width: 80%;
+margin: auto;
+
+}
+
+.bigBox-form input{
+  width: 100%;
+
+}
+/* text area use for make message box*/
+.bigBox-form textarea{
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
 }

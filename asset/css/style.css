@@ -28,7 +28,6 @@ body {
 }
 .smallBox {
   margin: 0px 10px;
-
   text-align: center;
   font-size: 13px;
 }
@@ -428,6 +427,15 @@ footer {
     display: block;
   }
   /*drop one line socail to another linr I use <br>*/
+
+/*perfect planner section*/
+.perfectPlanner-bigBox {
+height: 330px;
+  
+
+}
+
+
 }
 
 /*ipad mini*/
