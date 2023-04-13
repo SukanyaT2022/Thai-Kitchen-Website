@@ -33,7 +33,7 @@ position: relative;
 }
 
 .whiteBox-bigHero h2{
-    font-family:  'Arial Narrow Bold', sans-serif;
+  font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
 
@@ -99,6 +99,10 @@ padding: 10px 0px;
 
 .spiceSmallBox h3{
   font-size: 20px;
+}
+#spice h2{
+  font-family: 'Playfair Display', serif;
+
 }
 
 /*move bestseller box to the corner*/

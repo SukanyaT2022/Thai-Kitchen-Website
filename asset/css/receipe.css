@@ -27,10 +27,12 @@
   color: black;
   padding: 15px;
   background-color: white;
+  
 }
 
 .smallBox-insideBG h4 {
   font-size: 25px;
+  font-family: 'Playfair Display', serif;
 }
 
 /*first section- equalsection control whole section*/
@@ -109,7 +111,7 @@
   margin-right: 0px;
   margin-left: 30px;
 }
-
+/*first section*/
 .textonTopPic {
   position: absolute; /*link to line 83--child box*/
   top: 30px;
@@ -124,6 +126,14 @@ if want to move text to the center see above*/
 /*section3 4 box bootreap*/
 
 /*control big Box*/
+
+/*add this later*/
+.textonTopPic-UpleftBox{
+  position: absolute!important;
+  bottom: 40px!important;
+  left : 20px!important;
+}
+
 
 .controlBigBox {
   width: 80%;
@@ -150,6 +160,19 @@ position: relative;
   object-fit: cover; /*pics not strect*/
   border-radius: 0px; /*remove round coner from boostrap*/
 }
+.equalSection h2{
+  font-family: 'Open Sans', sans-serif;
+}
+.button-recipePage{
+  background-color: white;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size:20px ;
+
+}
+
 /*practice 4 grid*/
 /* grid-gap:20px; */
 /* .grid4Box{
