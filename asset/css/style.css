@@ -376,9 +376,10 @@ footer {
 .aboutUs {
   height: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column; /*important to put this if we want different line*/
+margin-left: 150px;
 }
 
 /*remove line*/

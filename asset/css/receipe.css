@@ -40,6 +40,13 @@
   height: auto;
   margin-bottom: 30px;
 }
+
+.equalSection h3 {
+  font-weight: bold;
+
+}
+
+
 /*bixbox-receipe control the 3 box */
 .bigbox-receipe {
   display: flex;
@@ -84,6 +91,8 @@
   object-fit: cover;
 }
 
+
+
 /*rightside*/
 .rightside-1BigBox {
   width: 60%;
@@ -117,10 +126,22 @@
   top: 30px;
   left: 30px;
   color: white;
+
   /* top: 50%;
 left: 50%;
 transform: translate(-50%,-50%); 
 if want to move text to the center see above*/
+}
+
+.textonTopPic a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.textonTopPic-UpleftBox a{
+text-decoration: none;
+color: white;
 }
 
 /*section3 4 box bootreap*/
