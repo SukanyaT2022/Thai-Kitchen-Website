@@ -194,6 +194,15 @@ position: relative;
 
 }
 
+.card-footer a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
 /*practice 4 grid*/
 /* grid-gap:20px; */
 /* .grid4Box{
