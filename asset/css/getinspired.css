@@ -16,7 +16,7 @@
     position: relative;
     width: 80%;
     margin: auto;
-
+color: white;
 }
 
 #animation{
@@ -113,12 +113,21 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-padding:0px 25px;
+padding:0px 35px;
 background-color: white;
 
+
+}
+.text-section1 h4{
+    font-family: 'Playfair Display', serif;
 }
 
 
+.text-section1 p{
+    text-align: left;
+    color: black;
+
+}
 
 .text-section1 a{
 
@@ -163,6 +172,7 @@ left: 5%;
 .boxforText h4{
     color: white;  
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
 .boxforText a{
     color: white;
@@ -233,11 +243,13 @@ so we have to define height to make all box equal height*/
 .first{
     font-size: 15px;
     margin-bottom: 20px;
+color: black!important;
 
 }
 .second{
     font-size: 25px;
     margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 /*fontawesom location*/
@@ -287,6 +299,11 @@ object-fit: cover;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   
+}
+.targetText p{
+    font-family: 'Playfair Display', serif!important; 
+    color: black; 
 }
 
 /*ipad air*/
