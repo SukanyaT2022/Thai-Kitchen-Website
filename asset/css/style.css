@@ -131,19 +131,29 @@ hr {
   display: none;
   background-color: white;
 }
+
+.bigContainer h4 {
+font-family: 'Playfair Display', serif;
+}
+
+
 /*smallboxnav control before head product --the whole box*/
 .smallBoxNav {
   margin-top: 20px;
+
 }
 
-.smallBoxNav b {
+.smallBoxNav b a{
   font-size: 18px;
+  font-family: 'Playfair Display', serif!important;
 }
+
 
 /*remove line--come with a tag*/
 .smallBoxNav li a {
   text-decoration: none;
   color: black;
+ 
 }
 /*remove dott from li*/
 .smallBoxNav li {
@@ -450,6 +460,11 @@ margin-left: 150px;
   .socialRow2 {
     display: block;
   }
+
+  .aboutUs {
+  margin-left: 70px;
+  }
+  
   /*drop one line socail to another linr I use <br>*/
 
 /*perfect planner section*/
@@ -533,6 +548,8 @@ height: 330px;
   }
   .aboutUs {
     align-items: flex-start;
+    margin-left: 0px;
+
   }
   .bigBoxSocial h4 {
     text-align: left!important;

@@ -1,341 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thai Kitchen || Receipe</title>
+    <link rel="icon" href="asset/image/H.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!--below 2css link for slider-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="asset/css/receipe.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thai Kitchen || Receipe </title>
-  <link rel="icon" href="asset/image/H.png" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-  <!--below 2css link for slider-->
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
-  <link rel="stylesheet" href="asset/css/receipe.css" />
-  <link rel="stylesheet" href="asset/css/style.css" />
-</head>
+  <body id="scrolUpBar">
+    <!--scrollUp bar id-->
 
-<body id="scrolUpBar"><!--scrollUp bar id-->
-
-  <!--top-->
-  <div class="BigTopBox">
-    <div class="smallBox">
-      <i class="fa-solid fa-box"></i>
-      <p><a href="TrackOrder.html">Track Order</a></p>
-    </div>
-
-    <div class="smallBox">
-      <i class="fa-solid fa-user"></i>
-
-      <!--pop up account -sign in accountbootsratp-->
-      <!-- Button trigger modal -->
-      <p class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Account
-      </p>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!--logo on top of sign in account-->
-            <div>
-              <img src="asset/image/Tuk-Tuk_red_02_CL copy.jpg" class="imageLogoAcc" alt="logoimage" /><br />
-            </div>
-
-            <div class="modal-header">
-              <!--logo top of sign in account box-->
-
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Sign into your account
-              </h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <!--model body and custome class control sign in box-->
-            <div class="modal-body signinBox">
-              <!--log in form-->
-              <form action="">
-                <input type="email" placeholder="Your Email or mobile phone" />
-                <input type="password" placeholder="Your Password" /><span id="showPassword">Show Password</span>
-                <input type="submit" value="Sign In" />
-                <input type="button" value="Create your account" />
-              </form>
-            </div>
-          </div>
-        </div>
+    <!--top-->
+    <div class="BigTopBox">
+      <div class="smallBox">
+        <i class="fa-solid fa-box"></i>
+        <p><a href="TrackOrder.html">Track Order</a></p>
       </div>
 
-      <!--end pop up account-->
-    </div>
+      <div class="smallBox">
+        <i class="fa-solid fa-user"></i>
 
-    <div class="smallBox">
-      <i class="fa-solid fa-heart"></i>
-      <p>Favourites</p>
-    </div>
+        <!--pop up account -sign in accountbootsratp-->
+        <!-- Button trigger modal -->
+        <p class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Account
+        </p>
 
-    <div class="smallBox">
-      <i class="fa-solid fa-cart-shopping"></i>
-      <p>Cart</p>
-    </div>
-  </div>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!--logo on top of sign in account-->
+              <div>
+                <img
+                  src="asset/image/Tuk-Tuk_red_02_CL copy.jpg"
+                  class="imageLogoAcc"
+                  alt="logoimage"
+                /><br />
+              </div>
 
-  <!--logo-->
-  <div class="logo">
-    <a href="index.html"><img src="asset/image/Tuk-Tuk_red_02_CL copy.jpg" /></a>
-    <h2>Tuk Tuk Thai Kitchen</h2>
-    <hr />
-    <p>Made in Thailand</p>
-  </div>
+              <div class="modal-header">
+                <!--logo top of sign in account box-->
 
-  <!--serachBox-->
-  <nav class="navbar">
-    <form class="container searchBox">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="What are you looking for?" aria-label="Username"
-          aria-describedby="basic-addon1" />
-        <span class="input-group-text bgSearchIcon" id="basic-addon1"><i
-            class="fa-solid fa-magnifying-glass"></i></span>
-      </div>
-    </form>
-  </nav>
-
-  <!--start navBar-->
-  <!--nav-link target a tag --boostrap-->
-  <nav class="navbar navigationCustom navbar-expand-lg navBartSticky">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <!--indexpage link-->
-            <a class="nav-link" aria-current="page" href="index.html">Tuk Tuk Thai Kitchen</a>
-            <!--remove active - when touch it give active color as we change-->
-          </li>
-
-          <li class="nav-item">
-            <!--product link -->
-            <a class="nav-link" href="#" onclick="dropdown()">Products</a>
-
-            <!--start drop down-->
-
-            <div class="bigContainer" id="toggle">
-              <!--toggle means show and hide-->
-              <h4>Products</h4>
-              <div class="mainBoxNav">
-                <div class="smallBoxNav">
-                  <ul>
-                    <li>
-                      <b><a href="product.html">Herb & Spice</a></b>
-                    </li>
-                    <li><a href=""> Spice</a></li>
-                    <li><a href=""> Spice Blends</a></li>
-                    <li><a href="">Grinders</a></li>
-                  </ul>
-                </div>
-
-                <div class="smallBoxNav">
-                  <ul>
-                    <li>
-                      <b><a href="product.html">Sauces</a></b>
-                    </li>
-                    <li><a href=""> Northern Sauces</a></li>
-                    <li><a href="">Traditional Sauces</a></li>
-                    <li><a href="">Southern Sauces</a></li>
-                  </ul>
-                </div>
-
-                <div class="smallBoxNav">
-                  <ul>
-                    <li>
-                      <b><a href="product.html">Receipe Mixes</a></b>
-                    </li>
-                    <li><a href=""> Northern Food</a></li>
-                    <li><a href="">Traditional Food</a></li>
-                    <li><a href=""> Southern Food</a></li>
-                  </ul>
-                </div>
-
-                <div class="smallBoxNav">
-                  <ul>
-                    <li>
-                      <b><a href="product.html">More Products</a></b>
-                    </li>
-                    <li><a href=""> Coconut Milk</a></li>
-                    <li><a href="">products</a></li>
-                    <li><a href=""> products</a></li>
-                  </ul>
-                </div>
-
-                <div class="smallBoxNav">
-                  <ul>
-                    <li><b><a href="">Where to buy</a></b></li>
-                    <li><a href="">New York Supermarket</a></li>
-                    <li><a href="https://stopandshop.com/home">Stop & Shop</a></li>
-                    <li><a href="https://www.wholefoodsmarket.com/">Whole Foods Supermarket</a></li>
-                  </ul>
-                </div>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Sign into your account
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <!--model body and custome class control sign in box-->
+              <div class="modal-body signinBox">
+                <!--log in form-->
+                <form action="">
+                  <input
+                    type="email"
+                    placeholder="Your Email or mobile phone"
+                  />
+                  <input type="password" placeholder="Your Password" /><span
+                    id="showPassword"
+                    >Show Password</span
+                  >
+                  <input type="submit" value="Sign In" />
+                  <input type="button" value="Create your account" />
+                </form>
               </div>
             </div>
-
-            <!--end drop down-->
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="receipe.html">Recipes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="getInspired.html">Get Inspired</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!--end NavBar--bootstrap grid-->
-
-  <!--start big hero-->
-  <section>
-    <div class="receipe-bigHero">
-      <!--small box inside big hero-->
-      <div class="smallBox-insideBG">
-        <h4>Recipes + Cooking Ideas</h4>
-        <p>Can't wait to share our best thai receipes from one - pan meals, woked , and more.</p>
-
-      </div>
-    </div>
-  </section>
-
-  <!--first section-->
-  <div class="equalSection">
-    <h3 class="text-center py-5">Healthy & Delicious</h3>
-    <!--html always start from the left side to right side-->
-    <!--bigbox-receipe control the whole box-->
-    <div class="bigbox-receipe">
-      <div class="leftside-2smallBox">
-        <div class="upBox"><img
-            src="https://cdn.pixabay.com/photo/2021/07/04/13/23/green-curry-6386360__480.jpg" />
-
-        
-
+          </div>
         </div>
-        <div class="downBox">
+
+        <!--end pop up account-->
+      </div>
+
+      <div class="smallBox">
+        <i class="fa-solid fa-heart"></i>
+        <p>Favourites</p>
+      </div>
+
+      <div class="smallBox">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>Cart</p>
+      </div>
+    </div>
+
+    <!--logo-->
+    <div class="logo">
+      <a href="index.html"
+        ><img src="asset/image/Tuk-Tuk_red_02_CL copy.jpg"
+      /></a>
+      <h2>Tuk Tuk Thai Kitchen</h2>
+      <hr />
+      <p>Made in Thailand</p>
+    </div>
+
+    <!--serachBox-->
+    <nav class="navbar">
+      <form class="container searchBox">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="What are you looking for?"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+          <span class="input-group-text bgSearchIcon" id="basic-addon1"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></span>
+        </div>
+      </form>
+    </nav>
+
+    <!--start navBar-->
+    <!--nav-link target a tag --boostrap-->
+    <nav class="navbar navigationCustom navbar-expand-lg navBartSticky">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!--indexpage link-->
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Tuk Tuk Thai Kitchen</a
+              >
+              <!--remove active - when touch it give active color as we change-->
+            </li>
+
+            <li class="nav-item">
+              <!--product link -->
+              <a class="nav-link" href="#" onclick="dropdown()">Products</a>
+
+              <!--start drop down-->
+
+              <div class="bigContainer" id="toggle">
+                <!--toggle means show and hide-->
+                <h4>Products</h4>
+                <div class="mainBoxNav">
+                  <div class="smallBoxNav">
+                    <ul>
+                      <li>
+                        <b><a href="product.html">Herb & Spice</a></b>
+                      </li>
+                      <li><a href=""> Spice</a></li>
+                      <li><a href=""> Spice Blends</a></li>
+                      <li><a href="">Grinders</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="smallBoxNav">
+                    <ul>
+                      <li>
+                        <b><a href="product.html">Sauces</a></b>
+                      </li>
+                      <li><a href=""> Northern Sauces</a></li>
+                      <li><a href="">Traditional Sauces</a></li>
+                      <li><a href="">Southern Sauces</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="smallBoxNav">
+                    <ul>
+                      <li>
+                        <b><a href="product.html">Receipe Mixes</a></b>
+                      </li>
+                      <li><a href=""> Northern Food</a></li>
+                      <li><a href="">Traditional Food</a></li>
+                      <li><a href=""> Southern Food</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="smallBoxNav">
+                    <ul>
+                      <li>
+                        <b><a href="product.html">More Products</a></b>
+                      </li>
+                      <li><a href=""> Coconut Milk</a></li>
+                      <li><a href="">products</a></li>
+                      <li><a href=""> products</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="smallBoxNav">
+                    <ul>
+                      <li>
+                        <b><a href="">Where to buy</a></b>
+                      </li>
+                      <li><a href="">New York Supermarket</a></li>
+                      <li>
+                        <a href="https://stopandshop.com/home">Stop & Shop</a>
+                      </li>
+                      <li>
+                        <a href="https://www.wholefoodsmarket.com/"
+                          >Whole Foods Supermarket</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!--end drop down-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="receipe.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="getInspired.html">Get Inspired</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end NavBar--bootstrap grid-->
+
+    <!--start big hero-->
+    <section>
+      <div class="receipe-bigHero">
+        <!--small box inside big hero-->
+        <div class="smallBox-insideBG">
+          <h4>Recipes + Cooking Ideas</h4>
+          <p>
+            Can't wait to share our best thai receipes from one - pan meals,
+            woked , and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--first section-->
+    <div class="equalSection fixSpace1">
+      <h3 class="text-center py-5">Healthy & Delicious</h3>
+      <!--html always start from the left side to right side-->
+      <!--bigbox-receipe control the whole box-->
+      <div class="bigbox-receipe">
+        <div class="leftside-2smallBox">
+          <div class="upBox">
+            <img
+              src="https://cdn.pixabay.com/photo/2021/07/04/13/23/green-curry-6386360__480.jpg"
+            />
+          </div>
+          <div class="downBox">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/06/30/04/50/thai-food-2457223__480.jpg"
+            />
+          </div>
+        </div>
+
+        <div class="rightside-1BigBox">
+          <img src="asset/image/firstsection-rightside.jpg" />
+          <div class="textonTopPic">
+            <a href="https://www.tasteofhome.com/collection/thai-recipes/"
+              ><h4>10 EASY WINTER MEALS</h4></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--second section-->
+
+    <div class="equalSection fixSpace2">
+      <h3 class="text-center pb-5 pt-3">Summer Celebrations</h3>
+      <!--html always start from the left side to right side-->
+      <!--bigbox-receipe control the whole box-->
+      <div class="bigbox-receipe section2">
+        <!--section2 is class to fllip the box-->
+        <div class="leftside-2smallBox">
+          <div class="upBox">
+            <img
+              src="https://images.pexels.com/photos/14883753/pexels-photo-14883753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            />
+          </div>
+          <div class="downBox">
+            <img
+              src="https://images.unsplash.com/photo-1604579659931-f42436a8368c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fFRoYWklMjBmb29kfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            />
+          </div>
+        </div>
+
+        <div class="rightside-1BigBox">
           <img
-            src="https://cdn.pixabay.com/photo/2017/06/30/04/50/thai-food-2457223__480.jpg" />   
-        </div>
-        
-
-      </div>
-
-      <div class="rightside-1BigBox">
-        <img src="asset/image/firstsection-rightside.jpg" />
-        <div class="textonTopPic">
-      
-          <a href="https://www.tasteofhome.com/collection/thai-recipes/"><h4>10 EASY WINTER MEALS</h4></a>
-        
-        </div>
-
-
-      </div>
-
-    
-
-
-
-    </div>
-  </div>
-
-
-  <!--second section-->
-
-  <div class="equalSection">
-    <h3 class="text-center pb-5 pt-3">Summer Celebrations</h3>
-    <!--html always start from the left side to right side-->
-    <!--bigbox-receipe control the whole box-->
-    <div class="bigbox-receipe section2"><!--section2 is class to fllip the box-->
-      <div class="leftside-2smallBox">
-        <div class="upBox"><img
-            src="https://images.pexels.com/photos/14883753/pexels-photo-14883753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-         
+            src="https://cdn.pixabay.com/photo/2018/08/14/07/16/satay-chicken-3604856__480.jpg"
+          />
+          <div class="textonTopPic-UpleftBox">
+            <a href="https://www.bbcgoodfood.com/recipes/10-minute-pad-thai"
+              ><h4>10 MINUTE MEALS</h4></a
+            >
           </div>
-        <div class="downBox"><img
-            src="https://images.unsplash.com/photo-1604579659931-f42436a8368c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fFRoYWklMjBmb29kfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" />
-       
+        </div>
+      </div>
+    </div>
+
+    <!--section3 boostrap-->
+
+    <div class="equalSection ">
+      <div class="section3-bogBox fixSpace3">
+        <h3 class="text-center pb-5 pt-3">Spring Preview</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 g-3 controlBigBox">
+          <!--this class control the whole big box-->
+          <div class="col">
+            <div class="card">
+              <!--IMAGE INSIDE CARD-->
+              <img
+                src="https://images.unsplash.com/photo-1554054204-b2f70b09d031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGhhaWZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                class="card-img-top"
+                alt="food"
+              />
+
+              <div class="card-footer">
+                <a
+                  href="https://thaichefschool.com/recipes/pad-thai-vegetarian/"
+                  ><small class="text-dark">Vegetarian Meals</small></a
+                >
+              </div>
+            </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2017/12/16/17/46/fried-rice-3023040__480.jpg"
+                class="card-img-top"
+                alt="food"
+              />
 
-      </div>
+              <div class="card-footer">
+                <a
+                  href="https://www.thai-food-online.co.uk/pages/thai-fried-rice-recipe"
+                  ><small class="text-dark"
+                    >Easy Thai Fried Rice Recipe</small
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/07/18/06/36/egg-net-3545650__480.jpg"
+                class="card-img-top"
+                alt="food"
+              />
 
-      <div class="rightside-1BigBox ">
-        <img src="https://cdn.pixabay.com/photo/2018/08/14/07/16/satay-chicken-3604856__480.jpg" />
-        <div class="textonTopPic-UpleftBox">
-     
-          <a href="https://www.bbcgoodfood.com/recipes/10-minute-pad-thai"><h4>10 MINUTE MEALS</h4></a>
-    
-        
+              <div class="card-footer">
+                <a href="https://food52.com/recipes/82365-best-pad-thai-recipe"
+                  ><small class="text-dark">Pad Thai Wrap</small></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2017/04/23/06/27/tom-yum-goong-2253075__480.jpg"
+                class="card-img-top"
+                alt="food"
+              />
+
+              <div class="card-footer">
+                <a href="https://thaichefschool.com/recipes/tom-yum-goong/">
+                  <small class="text-dark">Simple Tom Yum Soup</small></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
-
-  <!--section3 boostrap-->
-
-  <div class="equalSection">
-<div class="section3-bogBox">
-
-  <h3 class="text-center pb-5 pt-3">Spring Preview</h3>
-
-  <div class="row row-cols-1 row-cols-md-2 g-3 controlBigBox"><!--this class control the whole big box-->
-    <div class="col">
-      <div class="card"><!--IMAGE INSIDE CARD-->
-        <img src="https://images.unsplash.com/photo-1554054204-b2f70b09d031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGhhaWZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="food">
-       
-        <div class="card-footer">
-          <a href="https://thaichefschool.com/recipes/pad-thai-vegetarian/"><small class="text-dark">Vegetarian Meals</small></a>
-        </div>
-
-
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2017/12/16/17/46/fried-rice-3023040__480.jpg" class="card-img-top" alt="food">
-       
-        <div class="card-footer">
-          <a  href="https://www.thai-food-online.co.uk/pages/thai-fried-rice-recipe"><small class="text-dark">Easy Thai Fried Rice Recipe</small></a>
-        </div>
-
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2018/07/18/06/36/egg-net-3545650__480.jpg" class="card-img-top" alt="food">
-      
-        <div class="card-footer">
-          <a href="https://food52.com/recipes/82365-best-pad-thai-recipe"><small class="text-dark">Pad Thai Wrap</small></a>
-        </div>
-
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2017/04/23/06/27/tom-yum-goong-2253075__480.jpg" class="card-img-top" alt="food">
-
-        <div class="card-footer">
-          <a href="https://thaichefschool.com/recipes/tom-yum-goong/"> <small class="text-dark">Simple Tom Yum Soup</small></a>
-        </div>
-    
-      </div>
-    </div>
-  </div>
-
-</div>
-
-</div>
-<!-- section 4 grid
+    <!-- section 4 grid
 
 <div class="grid4Box">
   <div class="box"></div>
@@ -344,122 +413,128 @@
   <div class="box"></div>
 
 </div> -->
-<div class="equalSection">
-   <!--equal size use every section to control 
+    <div class="equalSection ">
+      <!--equal size use every section to control 
   each eection size equally so we reuse it -->
 
-  <h3 class="text-center pb-5 pt-3">From the Chefs' Collective</h3>
+      <h3 class="text-center pb-5 pt-3 fixSpace4">From the Chefs' Collective</h3>
 
-  <div class="section4-bigBox">
+      <div class="section4-bigBox">
+        <div class="section4-imgRight"></div>
 
-<div class="section4-imgRight">
- 
-
-</div>
-
-<div class="section4-imgLeft">
-  <div class="chef">
-    <img src="asset/image/chefPic.jpeg">
-  </div>
-<div class="text-left">
-    <h3 class="pb-2">Siam's Favourites</h3>
-    <h5 >Classic comfort foods from Tuk Tuk's kitchen</h5>
-
-    <a href="https://www.yaisthai.com/blogs/recipes/thai-green-coconut-curry-shrimp-soup"><h6>VIEW RECEIPES</h6></a>
-  </div>
-
-
-</div>
-
-</div>
-
-  </div>
-
-
-<!--arrow move up-->
-<div class="moveScrolUp">
-
-  <a href= "#scrolUpBar"><i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i></a>
-  
-  </div>
-
-
-  <!--start footer-->
-  <footer>
-    <div class="container-fluid">
-      <!--container-fluid have no space left and right-->
-      <div class="row row-cols-1 row-cols-sm-3 row-cols-xs-1">
-        <!--first col1 about us-->
-        <div class="col moveBoxDown">
-          <div class="aboutUs">
-            <h4>About Us</h4>
-            <a href="">Our Company</a>
-            <a href="">Our Commitment</a>
-            <a href="https://www.youtube.com/watch?v=F86GfZIph8o">Videos</a>
-            <a
-              href="https://guide.michelin.com/us/en/article/dining-in/how-to-make-thai-green-curry-like-a-michelin-starred-restaurant">Recipes</a>
+        <div class="section4-imgLeft">
+          <div class="chef">
+            <img src="asset/image/chefPic.jpeg" />
           </div>
-        </div>
-        <!--col2 contact-->
-        <div class="col text-center moveBoxDown">
-          <h4>Question?</h4>
-          <p>Search FAQ's or Contact Us</p>
+          <div class="text-left">
+            <h3 class="pb-2">Siam's Favourites</h3>
+            <h5>Classic comfort foods from Tuk Tuk's kitchen</h5>
 
-          <a href="contact.html"><button class="mainPage-button">Contact Us</button></a>
-        </div>
-        <!--col3 social media-->
-
-        <div class="col bigBoxSocial moveBoxDown">
-          <h4>Follow Us</h4>
-          <div class="topRowSocial">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-
-            <br class="socialRow2" />
-            <a href=""><i class="fa-brands fa-tiktok"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a
+              href="https://www.yaisthai.com/blogs/recipes/thai-green-coconut-curry-shrimp-soup"
+              ><h6>VIEW RECEIPES</h6></a
+            >
           </div>
         </div>
       </div>
     </div>
-  </footer>
 
-  <div>
-    <p class="text-center pt-2">
-      &copy;2023 Tiparpron Sukanya All right reserved
-    </p>
-  </div>
+    <!--arrow move up-->
+    <div class="moveScrolUp">
+      <a href="#scrolUpBar"
+        ><i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i
+      ></a>
+    </div>
 
+    <!--start footer-->
+    <footer>
+      <div class="container-fluid">
+        <!--container-fluid have no space left and right-->
+        <div class="row row-cols-1 row-cols-sm-3 row-cols-xs-1">
+          <!--first col1 about us-->
+          <div class="col moveBoxDown">
+            <div class="aboutUs">
+              <h4>About Us</h4>
+              <a href="">Our Company</a>
+              <a href="">Our Commitment</a>
+              <a href="https://www.youtube.com/watch?v=F86GfZIph8o">Videos</a>
+              <a
+                href="https://guide.michelin.com/us/en/article/dining-in/how-to-make-thai-green-curry-like-a-michelin-starred-restaurant"
+                >Recipes</a
+              >
+            </div>
+          </div>
+          <!--col2 contact-->
+          <div class="col text-center moveBoxDown">
+            <h4>Question?</h4>
+            <p>Search FAQ's or Contact Us</p>
 
-  <!--end footer-->
-  <script src="asset/js /script.js"></script>
-  <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+            <a href="contact.html"
+              ><button class="mainPage-button">Contact Us</button></a
+            >
+          </div>
+          <!--col3 social media-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
-  <!--below script for slider-->
+          <div class="col bigBoxSocial moveBoxDown">
+            <h4>Follow Us</h4>
+            <div class="topRowSocial">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
 
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+              <br class="socialRow2" />
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+              <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-  <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+    <div>
+      <p class="text-center pt-2">
+        &copy;2023 Tiparpron Sukanya All right reserved
+      </p>
+    </div>
 
-  <!--jquery link-->
+    <!--end footer-->
+    <script src="asset/js /script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/42d8882816.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.  
-  min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!--below script for slider-->
 
-  <!--after put css javascript and jaquery and then we can add the code html template of slide-->
-  <script>
-    $('.main-carousel').flickity({
-      // options
-      cellAlign: 'left',
-      contain: true,
-      groupCells: 3,
-    });
-  </script>
-</body>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
+    <script
+      src="https://kit.fontawesome.com/42d8882816.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--jquery link-->
+
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.  
+  min.js"
+    ></script>
+
+    <!--after put css javascript and jaquery and then we can add the code html template of slide-->
+    <script>
+      $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        groupCells: 3,
+      });
+    </script>
+  </body>
 </html>

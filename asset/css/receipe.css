@@ -91,8 +91,6 @@
   object-fit: cover;
 }
 
-
-
 /*rightside*/
 .rightside-1BigBox {
   width: 60%;
@@ -392,7 +390,6 @@ z-index: 7;
   }
 
   .chef {
- 
     margin-top: 30px;
  
   }
@@ -403,9 +400,31 @@ z-index: 7;
   }
 
   .moveScrolUp{
-
     display: none;
     
+    }
+
+    .fixSpace1 h3{
+      padding: 20px 0px 0px 0px!important;
+    }
+    .fixSpace2 h3{
+padding: 0px 0px!important;
+    }
+    .fixSpace3 h3{
+      padding: 0px 0px 10px 0px!important;
+    }
+    .fixSpace4{
+      padding: 10px 0px 20px 0px!important;
+     
+    }
+   
+    .section2 .upBox {
+      margin-right: 0px;
+      margin-left: 15px;
+    }
+    .section2 .downBox {
+      margin-right: 0px;
+      margin-left: 15px;
     }
 
 }
