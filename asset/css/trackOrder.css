@@ -20,8 +20,7 @@
     margin: auto;
     margin-top: 60px;
     margin-bottom: 40px;
- 
- 
+
 }
 
 .bigBox-for2smallbox{
@@ -37,6 +36,15 @@
     font-family: Roboto,sans-serif;
  
 }
+.smallBox-signIn h5{
+    font-family: serif;
+    font-size: 22px;
+}
+
+.controlSmallLeftBox{
+width: 72%;
+}
+
 
 .smallBox-signIn input{
     padding: 5px 25px;
@@ -87,6 +95,72 @@ width: 100%;
     padding-left: 100px!important;
 }
 
+
+/*ipad air*/
+@media screen and (max-width: 999px) {
+    .mainBox-track{
+width: 100%;
+     
+    }
+
+    .smallBox-signIn{
+        width: 40%;
+    
+    }
+    .moveSearchBox{
+        padding-left: 70px!important;
+       
+    }
+    .smallBox-signIn input{
+        width:200px;
+       
+    }
+
+.line{
+  margin-left: 20px;
+   
+}
+}
+
+
+/*ipad mini*/
+@media screen and (max-width: 768px) {
+}
+
+
+
+/*iphone*/
+@media screen and (max-width: 600px) {
+    .bigBox-for2smallbox{
+    flex-direction: column;
+    }
+    .smallBox-signIn{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px!important;
+    
+    }
+    .line{
+       width: 80% ;
+       height: 2px;
+       margin-top: 30px;
+    }
+
+    .moveSearchBox{
+       margin-top: 30px;
+       padding-left: 0px!important;
+       
+    }
+
+    .mainBox-track{  
+        margin-top: 30px;
+        margin-bottom: 0px;
+    
+    }
+
+}
 
 
 
