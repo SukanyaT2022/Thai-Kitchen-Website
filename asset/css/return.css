@@ -5,8 +5,6 @@ font-size: 15px;
 
 }
 
-
-
 .mainBoxRadio input,label{
 margin: 10px 5px;
 }
@@ -44,3 +42,57 @@ border: none;
 .shippingLabel{
     margin-top: 50px;
 }
+
+/*ipad air*/
+@media screen and (max-width: 999px) {
+    .mainReturn{
+        width: 50%;
+      padding-left: 60px;
+     
+        }
+
+}
+
+
+/*ipad mini*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*iphone*/
+@media screen and (max-width: 600px) {
+    .mainReturn{
+        width: 80%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .shippingLabel h4{
+        text-align: center;
+    }
+        
+        .forFormTag{
+           height: auto;
+         align-items: center;
+         justify-content: center;
+          
+          }
+          
+          .forFormTag input{
+              margin: 20px 10px;
+              width: 80%;
+              border: 1px solid black;
+          }
+          .forFormTag select{
+            width: 80%;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 20px 10px;
+        }
+
+
+           
+   
+}
+
+

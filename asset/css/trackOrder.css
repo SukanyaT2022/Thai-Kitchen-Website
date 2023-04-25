@@ -143,9 +143,10 @@ width: 100%;
     
     }
     .line{
-       width: 80% ;
+       width: 70% ;
        height: 2px;
        margin-top: 30px;
+       opacity: 0.5;
     }
 
     .moveSearchBox{

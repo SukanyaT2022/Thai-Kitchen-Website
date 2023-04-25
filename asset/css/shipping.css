@@ -40,8 +40,6 @@ width:24% ;
 margin-left: 50px;
 text-align: center;
 margin-top: 20px;
-
-
 }
 
 .Box3 h5{
@@ -51,4 +49,50 @@ margin: 10px 0px;
 
 .Box3 p{
 text-align: left;
+}
+
+/*ipad air*/
+@media screen and (max-width: 999px) {
+.main3Box{
+    flex-wrap: wrap;
+    /* flex-wrap:wrap: help to responsive crate a new row */
+
+    }
+    .Box3{
+        width:40% ;
+      
+        }
+}
+
+/*ipad mini*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*iphone*/
+@media screen and (max-width: 600px) {
+    .main3Box{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap:wrap: help to responsive crate a new row */
+    
+        }
+        .Box3{
+            width:100% ;
+         margin-left: 0;
+         /* margin-top: 0px; */
+          
+            }
+
+            .mainBox-ship h4{
+        text-align: center;
+        margin-bottom: 10px;
+      
+                
+                }
+                .controlText-ship h6{
+                    display: none;
+                }
+
 }

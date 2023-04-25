@@ -581,6 +581,11 @@ height: 330px;
       footer{
         padding-left: 20px;
       }
+
+      .logo hr {
+        width: 50%;
+    
+      }
      
 
 }
