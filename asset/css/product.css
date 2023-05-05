@@ -6,7 +6,9 @@
   --backgroundColor:#ececec;
 }
 
-
+.targetH2{
+  font-size: 25px;
+}
 
 .bigHero-productPage{
 height: 60vh;

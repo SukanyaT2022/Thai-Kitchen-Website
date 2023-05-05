@@ -15,7 +15,7 @@ html,
 body {
   overflow-x: hidden;
 }
-h2{
+h2,h3{
   font-family: 'Noto Serif KR', serif;
   font-weight: bold;
 }
@@ -371,6 +371,7 @@ font-family: 'Playfair Display', serif;
   border-radius: 20px;
   font-size: 20px;
   border: none;
+  margin-top: 20px;
 }
 /*receipe section-4 boxes food above footer*/
 .indexImg {
@@ -435,6 +436,11 @@ margin-left: 150px;
 
 .socialRow2 {
   display: none;
+}
+
+.lastsectionH5{
+  font-family: 'Noto Serif KR', serif;
+  font-weight: bold;
 }
 
 /*ipad air*/
